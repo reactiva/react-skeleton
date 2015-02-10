@@ -4,10 +4,10 @@ var express = require('express');
 
 var app = express();
 
-app.use(express.static(__dirname + '/dist/public'));
+app.use(express.static(__dirname + '/build/public'));
 
 app.get('/', function(req, res) {
-  res.sendFile(__dirname + '/dist/public/index.html');
+  res.sendFile(__dirname + '/build/public/index.html');
 });
 
 console.log('Listening on port ' + port);
