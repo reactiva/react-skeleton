@@ -1,0 +1,2 @@
+
+exports.SomeComponent = require('./SomeComponent');
