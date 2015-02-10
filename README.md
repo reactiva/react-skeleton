@@ -1,2 +1,2 @@
-# react-svg-text
-Self-wrapping SVG text
+# react-skeleton
+React skeleton with Karma tests and ES6.
